@@ -43,81 +43,105 @@ Missing Word Prompting:
 • "In photosynthesis, plants absorb sunlight to produce ____."
 
 OUTPUT:
-1. Straightforward Prompts
-Scenario 1: Movies
+## 1. Straightforward Prompts
 
-Prompt:
+### Scenario 1: Movies
+
+**Prompt:**  
 "List three characteristics of a superhero movie."
 
-Expected Output:
+**Expected Output:**
+- Hero protagonist
+- Action sequences
+- Conflict between hero and villain
 
-Hero protagonist
-Action sequences
-Conflict between hero and villain
-Scenario 2: Pop Culture
+---
 
-Prompt:
+### Scenario 2: Pop Culture
+
+**Prompt:**  
 "Define pop culture in one sentence."
 
-Expected Output:
+**Expected Output:**  
 "Pop culture refers to ideas, trends, entertainment, and activities that are popular within society at a given time."
 
-2. Tabular Format Prompting
-Scenario 1: Movie Genres
+---
 
-Prompt:
+## 2. Tabular Format Prompting
+
+### Scenario 1: Movie Genres
+
+**Prompt:**  
 "Create a table comparing action, comedy, and horror movies based on theme, audience preference, and examples."
 
-Expected Output:
+**Expected Output:**
 
-Genre	Theme	Audience Preference	Example
-Action	Adventure and excitement	Thrill seekers	Avengers
-Comedy	Humor and entertainment	Family audience	Home Alone
-Horror	Fear and suspense	Horror fans	The Conjuring
-Scenario 2: Popular Movie Franchises
+| Genre | Theme | Audience Preference | Example |
+|--------|--------|---------------------|----------|
+| Action | Adventure and excitement | Thrill seekers | Avengers |
+| Comedy | Humor and entertainment | Family audience | Home Alone |
+| Horror | Fear and suspense | Horror fans | The Conjuring |
 
-Prompt:
+---
+
+### Scenario 2: Popular Movie Franchises
+
+**Prompt:**  
 "Provide a table listing five popular movie franchises, their genre, and release decade."
 
-Expected Output:
+**Expected Output:**
 
-Franchise	Genre	Release Decade
-Star Wars	Science Fiction	1970s
-Harry Potter	Fantasy	2000s
-Fast & Furious	Action	2000s
-Jurassic Park	Adventure	1990s
-Marvel Cinematic Universe	Superhero	2000s
-3. Preceding Question Prompting
-Scenario 1: Superhero Films
+| Franchise | Genre | Release Decade |
+|------------|--------|----------------|
+| Star Wars | Science Fiction | 1970s |
+| Harry Potter | Fantasy | 2000s |
+| Fast & Furious | Action | 2000s |
+| Jurassic Park | Adventure | 1990s |
+| Marvel Cinematic Universe | Superhero | 2000s |
 
-Prompt:
+---
+
+## 3. Preceding Question Prompting
+
+### Scenario 1: Superhero Films
+
+**Prompt:**  
 "Why are superhero movies popular worldwide? Explain how storytelling and visual effects contribute to their success."
 
-Expected Output:
+**Expected Output:**  
 Superhero movies attract audiences because of engaging stories, memorable characters, action scenes, and advanced visual effects that create exciting cinematic experiences.
 
-Scenario 2: Social Media and Trends
+---
 
-Prompt:
+### Scenario 2: Social Media and Trends
+
+**Prompt:**  
 "How does social media influence pop culture? Describe how trends spread among audiences."
 
-Expected Output:
+**Expected Output:**  
 Social media spreads trends rapidly through sharing, videos, and online discussions, influencing fashion, music, language, and entertainment preferences.
 
-4. Missing Word Prompting
-Scenario 1: Movies
+---
 
-Prompt:
+## 4. Missing Word Prompting
+
+### Scenario 1: Movies
+
+**Prompt:**  
 "Animated movies often attract ____ audiences."
 
-Expected Output:
-"family"
+**Expected Output:**  
+`family`
 
-Scenario 2: Pop Culture
+---
 
-Prompt:
+### Scenario 2: Pop Culture
+
+**Prompt:**  
 "A movie released after the original film to continue the story is called a ____."
 
-Expected Output:
-"sequel"
+**Expected Output:**  
+`sequel`
+
+---
 RESULT: Thus, the experiment for exploring different type of prompt is completed successfully.
